@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!--<script src="app.js"></script>-->
+<script defer src="app.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Page Title</title>
+</head>
+<body >
+    <div >
+        <header>
+            <h1>TODO LIST</h1>    
+        </header>
+        <!------Adding the task--->
+        <div class="addTask" id="addTask">
+            <div id="container">
+            <div class="left" >
+                <h3>TASK NAME:</h3><input type="text" id="taskName" class="textbox">
+            </div>
+            <div id="addTaskButton " class="right">
+                    <button type="button" id="addTaskToList">Add Task</button>
+                    <button type="button" id="deleteTask">Delete Task</button>
+                    <button type="button" id="sortTask">Sort Task</button>
+            </div>
+        </div>
+        <!------  Task List--->
+        <div class="TaskList rightTask" id="TaskList">
+            
+        </div>    
+    </div>
+</body>
+</html>

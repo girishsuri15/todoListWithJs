@@ -1,0 +1,96 @@
+#container{
+    font-family: "Times New Roman", Times, serif;
+}
+.textbox{
+    border-color: #0c0e11;
+    border-radius: 4px;
+    margin: 0;
+    width: 319px;
+
+}
+.gap_Line{
+    margin-top:10px;
+}
+.addTask{
+    float:left;
+}
+.rightTask{
+    margin-top:100px;
+}
+.screenSet{
+    margin:0px 30px 0px;
+    width:75%;
+}
+.taskInfo{
+    border-color: #0c0e11; 
+    border-radius: 5px;
+    margin: 10px;
+    border:1px solid black;
+    padding:5px;
+    color:#c31b1b9c;
+}
+.buttonInfo{
+    border-color: #0c0e11; 
+    border-radius: 5px;
+    margin-left: 12px;
+    padding:4px;
+    color:#000000e8;
+}
+.boxborder{
+    border:1px solid black;
+}
+.addTsk{
+    margin: 3px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+    margin-top: 58px;
+}
+.row
+{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 30px;
+}
+.col{
+    float:left;
+    width:18%;
+    margin:8px 1px 8px 1px;
+}
+
+.box{
+    height: 50px;
+    background-color: white;
+    border:1px solid #bdbdbd;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px #bdbdbd;
+    -webkit-box-shadow: 0 0 10px #bdbdbd;
+    box-shadow: 0 0 10px #bdbdbd;
+}
+.hideButtonNext{
+    display:none;
+}
+.hideButtonPrevious{
+    display:none;
+}
+.showButton{
+    display:block;
+}
+.text_line{
+    text-decoration: line-through;
+}
+.showButtonNext{
+    display:block;
+}
+.showButtonPrevious{
+    display:block;
+}
+.buttonbeauty{
+    text-align: center;
+
+}
